@@ -167,12 +167,14 @@ ul.edudisplay li {
     width: 80%;
     background-color: rgba(60, 60, 60, 0.3);
     display: flex;
+    justify-content: center;
 }
 
 ul.edudisplay li .img_edu {
     border-radius: 20px;
-    width: 10%;
+    padding-left: 5%;
     padding-right: 5%;
+    width: fit-content;
 }
 
 ul.edudisplay li p {
