@@ -2,10 +2,10 @@
 ::-webkit-scrollbar {
     width: 10px;
 }
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track:vertical {
     background: rgba(60, 60, 60, 0.5);
 }
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb:vertical {
     background: linear-gradient(45deg, #5e1cda, #071954);
     border-radius: 10px;
 }
@@ -17,7 +17,7 @@ body {
     color: white;
     font-family: 'Poppins', sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 10px;
 }
 
 /* Customize Navigator */
@@ -235,7 +235,7 @@ ul.pubdisplay li {
     justify-content: center;
 }
 
-ul.pubdisplay li button {
+button.more {
     width: fit-content;
     background-color: #071954;
     border-radius: 10px;
@@ -243,14 +243,35 @@ ul.pubdisplay li button {
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
-    height: 2rem;
-
+    height: fit-content;
 }
 
+button a {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    box-sizing: content-box;
+    padding: .3em .3em;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
 
+button a:hover {
+    background-color: rgba(109, 109, 109, 0.485);
+    color:azure;
+    border-radius: 15px;
+}
 
+p.large {
+    line-height: 1.6;  /* 1.8 times the font size */
+    text-align: left;
+}
 
-@media (perfers-reduced-motion) {
+@media (prefers-reduced-motion) {
     .hidden {
         transition: none;
     }
@@ -294,7 +315,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 85vh;
     font-size: .6rem;
 }
     
