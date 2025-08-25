@@ -294,7 +294,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 30vh;
+    min-height: 100vh;
     font-size: .6rem;
 }
     
@@ -315,6 +315,26 @@ ul.researchdisplay li {
     width: 90%;
     background-color: rgba(60, 60, 60, 0.3);
     display: grid;
+}
+
+ul.pubdisplay {
+    display: grid;
+    justify-content: center;
+    width: 95%;
+    list-style-type: none;
+    padding: 0px 10px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+ul.pubdisplay li {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 80%;
+    background-color: rgba(60, 60, 60, 0.3);
+    display: grid;
+    justify-content: center;
 }
 
 }
