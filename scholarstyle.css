@@ -136,8 +136,7 @@ section a {
     gap: 1.2rem;
     padding: 1.2rem;
     border-radius: 22px;
-    background: linear-gradient(145deg, rgba(36, 44, 61, 0.85), rgba(21, 26, 37, 0.95));
-    border: 1px solid rgba(168, 208, 255, 0.26);
+    background:  rgba(60, 60, 60, 0.3);
     box-shadow: 0 20px 45px rgba(0, 0, 0, 0.38);
     align-items: center;
 }
@@ -185,7 +184,7 @@ section a {
 .highlight-description {
     margin: 0;
     line-height: 1.65;
-    color: #d5deed;
+    color: #ffffff;
 }
 
 /* Customize Javascript Observer */
